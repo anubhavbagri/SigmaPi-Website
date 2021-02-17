@@ -9,7 +9,6 @@
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-
   <title>SigmaPi Academy</title>
 </head>
 
@@ -42,19 +41,17 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Pages/pages.html">Pages by Students</a>
+            <a class="nav-link" href="Pages/pages.html">Student Blogs</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="Testimonials/testimonials.html">Testimonials</a>
           </li>
-          <form action="" class="form-inline my-2 my-lg-0">
-            <button class="mr-2 btn btn-outline-primary" type="submit" style="font-family:'Montserrat', sans-serif;">
-              Login
+          <div class="form-inline my-2 my-lg-0">
+            <button class="mr-2 btn btn-outline-primary" data-toggle="modal"
+              style="font-family:'Montserrat', sans-serif;" data-target="#registerForm">
+              Register
             </button>
-            <button class="btn btn-primary" type="submit" style="font-family:'Montserrat', sans-serif;">
-              Sign Up
-            </button>
-          </form>
+          </div>
         </ul>
       </div>
     </nav>
@@ -65,9 +62,9 @@
         <div class="row align-items-center">
           <div class="col-md-6">
             <h2>Welcome to</h2>
-            <h2><span>SigmaPi</span>  Academy!</h2>
-            <p>Sign up and attend live classes according to your schedule.</p>
-            <a class="btn btn-primary" href="#">Sign Up</a>
+            <h2><span>SigmaPi</span> Academy!</h2>
+            <p>Register and attend live classes according to your schedule.</p>
+            <a class="btn btn-primary" href="#" data-toggle="modal" data-target="#registerForm">Register</a>
           </div>
           <div class="col-md-6">
             <img src="Images/hero.png" alt="Image">
@@ -80,7 +77,7 @@
         <div class="row align-items-center">
           <div class="col-md-6">
             <div id="video-section">
-              <div class="youtube-player" data-id="DTH0hl1ApMY"></div>
+              <div class="youtube-player" data-id="Id0Vj00su6E"></div>
               <script>
                 document.addEventListener("DOMContentLoaded",
                   function () {
@@ -112,26 +109,43 @@
               </script>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6" style="font-family: 'Montserrat', sans-serif">
             <h2 class="section-title">About Us</h2>
+            <h5>
+              Greetings and welcome to all the kids out there!
+            </h5>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis
-              ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem.
-              Curabitur non nisl nec nisi scelerisque maximus. Aenean consectetur convallis porttitor. Aliquam interdum
-              at lacus non blandit.
+              We welcome you to the platform where we constantly strive to offer the best of education in computing
+              technologies. This platform has been designed for every student wishing to expand their knowledge as well
+              as share their knowledge and is ready to grab their opportunity in life, and create opportunities for
+              others too.
+              <br><br>
+              Thank you for choosing and supporting us!
             </p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis
-              ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem.
-              Curabitur non nisl nec nisi scelerisque maximus. Aenean consectetur convallis porttitor. Aliquam interdum
-              at lacus non blandit.
-            </p>
-            <a class="btn btn-primary" href="#">Know More</a>
+            <a class="btn btn-primary" href="Testimonials/testimonials.html">Know More</a>
           </div>
         </div>
       </div>
     </div>
   </main>
+  <div class="modal fade" id="registerForm" tabindex="-1" role="dialog" aria-labelledby="registerFormLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <img src="Images/SigmaPi Logo.png" width="50px" height="50px" alt="Logo">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <iframe style="width: 100%; height: 70vh;"
+            src="https://docs.google.com/forms/d/e/1FAIpQLSfMMSim1Ykx8qISuIp6EH0C8nsNc2waQA87oexoquuuDufZeQ/viewform?embedded=true"
+            frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div>
+      </div>
+    </div>
+  </div>
   <footer>
     <div class="footer">
       <div class="container">
@@ -140,7 +154,8 @@
             <div class="footer-about">
               <h2>About SigmaPi</h2>
               <p>
-                SigmaPi is an online platform that provides live interactive computer classes to school and college students.
+                SigmaPi is an online platform that provides live interactive computer classes to school and college
+                students.
               </p>
               <br>
               <p><i class="fa fa-map-marker-alt"></i> Kolkata, India</p>
@@ -152,20 +167,23 @@
             <div class="row">
               <div class="col-md-6">
                 <div class="footer-link">
-                  <h2>Important Links</h2>
-                  <a href="#">Mission</a>
+                  <h2>miscellaneous</h2>
                   <a href="#">Terms & Conditions</a>
                   <a href="#">Privacy Policy</a>
-                  <a href="#">Contact</a>
+                  <a href="tel:+91-988-318-3128">Contact</a>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="footer-link">
                   <h2>Social Media</h2>
-                  <a target="_blank" href="https://www.linkedin.com/in/satyender-mishra-75963799/"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
-                  <a target="_blank" href="https://www.facebook.com/satyender.mishra.54540"><i class="fab fa-facebook"></i> Facebook</a>
-                  <a target="_blank" href="https://www.instagram.com/bluejteacher/"><i class="fab fa-instagram"></i> Instagram</a>
-                  <a target="_blank" href="https://www.youtube.com/channel/UCfB67QqVUDy8GE00Ly6gCQQ/featured"><i class="fab fa-youtube"></i> Youtube</a>
+                  <a target="_blank" href="https://www.facebook.com/Sigma-Pi-Academy-113496663694837"><i
+                      class="fab fa-facebook"></i> Facebook</a>
+                  <a target="_blank" href="https://api.whatsapp.com/send?phone=919883183128"><i
+                      class="fab fa-whatsapp"></i> Whatsapp</a>
+                  <a target="_blank" href="https://www.instagram.com/bluejteacher/"><i class="fab fa-instagram"></i>
+                    Instagram</a>
+                  <a target="_blank" href="https://www.youtube.com/channel/UCfB67QqVUDy8GE00Ly6gCQQ/featured"><i
+                      class="fab fa-youtube"></i> Youtube</a>
                 </div>
               </div>
             </div>
@@ -175,9 +193,10 @@
       <div class="container copyright">
         <div class="row">
           <div class="col-md-6">
-            <p>&copy; <a href="#">SigmaPi Academy</a>, All Rights Reserved.</p>
+            <p>&copy; <a href="#">SigmaPi Academy</a>, All Rights Reserved. </p>
           </div>
           <div class="col-md-6">
+            <p>Made with &#10084; by <a target="_blank" href="https://www.linkedin.com/in/anubhavbagri/">Anubhav Bagri</a></p>
           </div>
         </div>
       </div>
@@ -192,8 +211,28 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
+  <script>
+    // disable right click
+    document.addEventListener('contextmenu', event => event.preventDefault());
+    document.onkeydown = function (e) {
+      // disable F12 key
+      if (e.keyCode == 123) {
+        return false;
+      }
+      // disable I key
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+        return false;
+      }
+      // disable J key
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+        return false;
+      }
+      // disable U key
+      if (e.ctrlKey && e.keyCode == 85) {
+        return false;
+      }
+    }
+  </script>
 </body>
-<!-- <span class="gr__tooltip"><span class="gr__tooltip-content"></span><i class="gr__tooltip-logo"></i><span
-    class="gr__triangle"></span></span> -->
 
 </html>
