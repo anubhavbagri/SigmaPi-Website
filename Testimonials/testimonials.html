@@ -9,8 +9,12 @@
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
   <link rel="stylesheet" href="../style.css">
-
   <title>SigmaPi Academy</title>
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
+    integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -42,27 +46,135 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../Pages/pages.html">Pages by Students</a>
+            <a class="nav-link" href="../Pages/pages.html">Student Blogs</a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="#">Testimonials</a>
           </li>
-          <form action="" class="form-inline my-2 my-lg-0">
-            <button class="mr-2 btn btn-outline-primary" type="submit" style="font-family:'Montserrat', sans-serif;">
-              Login
+          <div class="form-inline my-2 my-lg-0">
+            <button class="mr-2 btn btn-outline-primary" type="submit" style="font-family:'Montserrat', sans-serif;"
+              data-toggle="modal" data-target="#registerForm">
+              Register
             </button>
-            <button class="btn btn-primary" type="submit" style="font-family:'Montserrat', sans-serif;">
-              Sign Up
-            </button>
-          </form>
+          </div>
         </ul>
       </div>
     </nav>
   </header>
   <main>
-
+    <div class="single">
+      <div class="container" style="font-family: 'Montserrat', sans-serif">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="section-title">What our students say...</h2>
+            <h3>Hear, what our students say about Satyender Kumar Mishra, Founder of SigmaPi Academy.</h3>
+            <div class="row">
+              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="video-testimonial-block">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="//www.youtube.com/embed/bcW2F5C42Us" frameborder="0" allowfullscreen></iframe>
+                  </div>
+                </div>
+                <div class="video-testimonial-content">
+                  <h4>Aditya Kejariwal</h4>
+                  <p class="mb10">St. Xavier's Collegiate School, Kolkata<br> ISC Batch of 2020 <br><a
+                      href="#">kejariwaladitya@gmail.com</a></p>
+                </div>
+              </div>
+              <!-- video-testimonail -->
+              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="video-testimonial-block">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="//www.youtube.com/embed/1g_8eO_ykGI"
+                    frameborder="0" allowfullscreen></iframe>
+                  </div>
+                </div>
+                <div class="video-testimonial-content">
+                  <h4>Viraj Nathany</h4>
+                  <p class="mb10">La Martiniere For Boys School, Kolkata<br> ICSE Batch of 2021 <br><a
+                      href="#">nathanyviraj87@gmail.com</a></p>
+                </div>
+              </div>
+              <!-- /.video-testimonail -->
+              <!-- video-testimonail -->
+              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="video-testimonial-block">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="//www.youtube.com/embed/16Bh97gS1mk"
+                    frameborder="0" allowfullscreen></iframe>
+                  </div>
+                </div>
+                <div class="video-testimonial-content">
+                  <h4>Suveer Kapoor</h4>
+                  <p class="mb10">La Martiniere For Boys School, Kolkata<br> ICSE Batch of 2021 <br><a
+                      href="#">suveerkapooreagle14@gmail.com</a></p>
+                </div>
+              </div>
+              <!-- /.video-testimonail -->
+              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="video-testimonial-block">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="//www.youtube.com/embed/atL5mV2YGxY"
+                    frameborder="0" allowfullscreen></iframe>
+                  </div>
+                </div>
+                <div class="video-testimonial-content">
+                  <h4>Tushar Laddha</h4>
+                  <p class="mb10">The Heritage School, Kolkata<br> ISC Batch of 2013 <br><a
+                    href="#">tusharladha4895@gmail.com</a></p>
+                </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="video-testimonial-block">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="//www.youtube.com/embed/6thCefwIlIA?showinfo=0"
+                    frameborder="0" allowfullscreen></iframe>
+                  </div>
+                </div>
+                <div class="video-testimonial-content">
+                  <h4>Shatanik Mahanty</h4>
+                  <p class="mb10">B.D.M International School, Kolkata<br> CBSE Batch of 2020 <br><a
+                      href="#">shatanikmahanty@gmail.com</a></p>
+                </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="video-testimonial-block">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="//www.youtube.com/embed/o11F6FOB_w4"
+                    frameborder="0" allowfullscreen></iframe>
+                  </div>
+                </div>
+                <div class="video-testimonial-content">
+                  <h4>Hitansh Agarwal</h4>
+                  <p class="mb10">St. Xavier's Collegiate School, Kolkata<br> ICSE Batch of 2021 <br><a
+                      href="#">hitanshagarwal@gmail.com</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </main>
-  <!-- <footer>
+  <div class="modal fade" id="registerForm" tabindex="-1" role="dialog" aria-labelledby="registerFormLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <img src="../Images/SigmaPi Logo.png" width="50px" height="50px" alt="Logo">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <iframe style="width: 100%; height: 70vh;"
+            src="https://docs.google.com/forms/d/e/1FAIpQLSfMMSim1Ykx8qISuIp6EH0C8nsNc2waQA87oexoquuuDufZeQ/viewform?embedded=true"
+            frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
     <div class="footer">
       <div class="container">
         <div class="row">
@@ -73,7 +185,7 @@
                 SigmaPi is an online platform that provides live interactive computer classes to school and college
                 students.
               </p>
-              <br>
+              <br />
               <p><i class="fa fa-map-marker-alt"></i> Kolkata, India</p>
               <p><i class="fa fa-phone-alt"></i> +91 98831 83128</p>
               <p><i class="fa fa-envelope"></i> bluejteacher@gmail.com</p>
@@ -83,20 +195,19 @@
             <div class="row">
               <div class="col-md-6">
                 <div class="footer-link">
-                  <h2>Important Links</h2>
-                  <a href="#">Mission</a>
+                  <h2>miscellaneous</h2>
                   <a href="#">Terms & Conditions</a>
                   <a href="#">Privacy Policy</a>
-                  <a href="#">Contact</a>
+                  <a href="tel:+91-988-318-3128">Contact</a>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="footer-link">
                   <h2>Social Media</h2>
-                  <a target="_blank" href="https://www.linkedin.com/in/satyender-mishra-75963799/"><i
-                      class="fab fa-linkedin-in"></i> LinkedIn</a>
-                  <a target="_blank" href="https://www.facebook.com/satyender.mishra.54540"><i
+                  <a target="_blank" href="https://www.facebook.com/Sigma-Pi-Academy-113496663694837"><i
                       class="fab fa-facebook"></i> Facebook</a>
+                  <a target="_blank" href="https://api.whatsapp.com/send?phone=919883183128"><i
+                      class="fab fa-whatsapp"></i> Whatsapp</a>
                   <a target="_blank" href="https://www.instagram.com/bluejteacher/"><i class="fab fa-instagram"></i>
                     Instagram</a>
                   <a target="_blank" href="https://www.youtube.com/channel/UCfB67QqVUDy8GE00Ly6gCQQ/featured"><i
@@ -110,14 +221,15 @@
       <div class="container copyright">
         <div class="row">
           <div class="col-md-6">
-            <p>&copy; <a href="#">SigmaPi Academy</a>, All Rights Reserved.</p>
+            <p>
+              &copy; <a href="#">SigmaPi Academy</a>, All Rights Reserved.
+            </p>
           </div>
-          <div class="col-md-6">
-          </div>
+          <div class="col-md-6"></div>
         </div>
       </div>
     </div>
-  </footer> -->
+  </footer>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
     crossorigin="anonymous"></script>
