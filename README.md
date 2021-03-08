@@ -1,8 +1,3 @@
 ## SigmaPi-Website
 
-**Website's index Page Snapshot**
-
-![screenshot1](Screenshots/1.png)
-
-![screenshot2](Screenshots/2.png)
-
+SigmaPi is an online platform that provides live interactive computer classes to school and college students.

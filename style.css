@@ -521,3 +521,232 @@
 .mb10 {
     margin-bottom: 20px;
 }
+
+/*******************************/
+
+/********* Service CSS *********/
+
+/*******************************/
+
+.service {
+    position: relative;
+    width: 100%;
+    padding: 45px 0 15px 0;
+}
+
+@media (min-width: 768px) {
+    .service {
+        padding: 45px 60px 15px 60px;
+    }
+}
+
+.service .service-item {
+    position: relative;
+    width: 100%;
+    padding: 25px 30px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .03) 96%, rgba(0, 0, 0, .1), rgba(0, 0, 0, .2));
+    border-radius: 30px 30px 0 0;
+    margin-bottom: 30px;
+}
+
+.service .service-item:hover {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .03) 96%, rgba(0, 0, 0, .2), rgba(0, 0, 0, .4));
+}
+
+.service .service-item h3 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.service .service-item img {
+    height: 80px;
+}
+
+.service .service-item p {
+    position: relative;
+    margin: 20px 0 0 0;
+    font-size: 16px;
+}
+
+/* .service .video-player {
+    position: relative;
+    padding-bottom: 41.7%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #ffffff;
+    margin: 30px 0 0 0;
+    border-radius: 8px;
+}
+
+.service .video-player video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background: #000000;
+    z-index: -1;
+}
+
+.service .video-player img {
+    position: absolute;
+    display: block;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    border: none;
+    height: auto;
+    border-radius: 8px;
+    filter: opacity(75%);
+    -webkit-filter: opacity(75%);
+    -webkit-transition: .4s all;
+    -moz-transition: .4s all;
+    transition: .4s all;
+    z-index: 1;
+}
+
+.service .video-player:hover img {
+    filter: opacity(100%);
+    -webkit-filter: opacity(100%);
+}
+
+.service .video-player .play {
+    height: 100px;
+    width: 100px;
+    left: 50%;
+    top: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+    position: absolute;
+    background: url("../img/play.png") no-repeat;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.service .video-player .play:hover {
+    background: url("../img/play-hover.png") no-repeat;
+}
+
+@media (max-width: 575.98px) {
+    .service .video-player .play {
+        height: 60px;
+        width: 60px;
+        left: 50%;
+        top: 50%;
+        margin-left: -30px;
+        margin-top: -30px;
+        background: url("../img/play-60.png") no-repeat;
+    }
+
+    .service .video-player .play:hover {
+        background: url("../img/play-hover-60.png") no-repeat;
+    }
+} */
+
+.section-header {
+    position: relative;
+    width: 100%;
+    max-width: 550px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+}
+
+.section-header::after {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 3px;
+    left: calc(50% - 30px);
+    bottom: 0;
+    background: linear-gradient(to left, #4F84C4, #00539C, #4F84C4);
+    border-radius: 100%;
+}
+
+.section-header h2 {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+}
+
+.section-header p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.quote-card {
+    background: #fff;
+    color: #222222;
+    padding: 20px;
+    padding-left: 50px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px rgba(34, 34, 34, 0.12);
+    position: relative;
+    overflow: hidden;
+    min-height: 120px;
+}
+
+.quote-card p {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin: 0;
+    max-width: 80%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.quote-card cite {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin-top: 8px;
+    display: block;
+    font-weight: 300;
+    opacity: 0.8;
+}
+
+.quote-card:before {
+    font-family: Georgia, serif;
+    content: "“";
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 5em;
+    color: rgba(238, 238, 238, 0.8);
+    font-weight: normal;
+}
+
+.quote-card:after {
+    font-family: Georgia, serif;
+    content: "”";
+    position: absolute;
+    bottom: -110px;
+    line-height: 100px;
+    right: -32px;
+    font-size: 25em;
+    color: rgba(238, 238, 238, 0.8);
+    font-weight: normal;
+}
+
+@media (max-width: 640px) {
+    .quote-card:after {
+        font-size: 22em;
+        right: -25px;
+    }
+}
