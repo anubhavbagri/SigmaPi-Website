@@ -381,6 +381,34 @@
     justify-content: center;
 }
 
+@media (min-width: 768px) {
+    .portfolio h2.section-title {
+        margin-left: -2.8rem;
+        /* margin-left: -45px; */
+    }
+}
+
+.portfolio h2.section-title {
+    position: relative;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+    padding-bottom: 15px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.portfolio h2.section-title::after {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background: #0275d8;
+    border-radius: 0 100% 100% 0;
+}
+
 /* css grid */
 
 .grid-container-top {
