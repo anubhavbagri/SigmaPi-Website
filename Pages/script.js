@@ -4,8 +4,8 @@ document.getElementById("intro-to-c").innerHTML =
 document.getElementById("datatypes").innerHTML =
   "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe, dolorem voluptas! Repellat maxime, inventore, est laborum recusandae vel molestiae ab possimus unde asperiores eos voluptatum voluptatibus velit officia vero.";
 
-document.getElementById("loops").innerHTML =
-  "ipsum dolor sit amet, consectetur adipisicing elit. Officiis, nam temporibus provident voluptas ducimus, saepe reprehenderit sapiente eius, molestias assumenda voluptates cum similique commodi itaque necessitatibus in nulla corporis recusandae nesciunt culpa natus? Architecto officiis at sapiente consequuntur id perspiciatis, quam possimus et ipsam perferendis ab recusandae unde illo sunt maxime cumque consectetur alias. Aut sapiente illum perspiciatis sed, ut dolorem rem reprehenderit cumque iste labore illo laboriosam debitis natus quis fugit rerum atque impedit voluptate! Illum quidem distinctio ipsum culpa debitis nesciunt reiciendis rem consequatur, soluta nostrum maiores velit magnam, natus minus ipsam quia, dolores accusantium aspernatur voluptate adipisci.";
+document.getElementById("conditions").innerHTML =
+  "The most basic and simple kind of conditional operator is the if else. It is of four types 1. If statement: This checks if a certain condition is true and then executes a block otherwise not. <br> <samp> if(condition)<br>{<br> //Code to be executed <br>} <br></samp>";
 
 document.getElementById("arrays").innerHTML =
   "adipisci obcaecati, recusandae similique repellendus quidem iste at eos, dolores, ex quasi error excepturi molestiae? Vel aliquid harum necessitatibus tempore voluptas doloribus reprehenderit sed ipsum, dignissimos suscipit! Pariatur vero sed veniam id earum iste, harum ducimus odit nesciunt, fuga laborum deserunt quasi ipsum. Saepe laborum qui, corrupti possimus, porro aspernatur est architecto dignissimos cumque ipsum consequatur doloremque?";
