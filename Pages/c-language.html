@@ -25,6 +25,12 @@
         .nav-pills .show>.nav-link {
             color: #fff !important;
         }
+
+        /* @media (min-width: 768px) {
+            div.row.bg {
+                margin: 0px 0px;
+            }
+        } */
     </style>
 </head>
 
@@ -73,10 +79,10 @@
             </div>
         </nav>
     </header>
-    <br><br>
-    <main class="container" style="font-family: 'Montserrat', sans-serif">
+    <br>
+    <main class="d-flex p-4" style="font-family: 'Montserrat', sans-serif; margin: 0px 0px;">
         <div class="row bg">
-            <div class="col-3">
+            <div class="col-3 d-none d-lg-block">
                 <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                     <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab"
                         aria-controls="v-pills-home" aria-selected="true">Introduction to C</a>
@@ -88,7 +94,7 @@
                         aria-controls="v-pills-settings" aria-selected="false">Arrays</a>
                 </div>
             </div>
-            <div class="col-9">
+            <div class="col-9 text-justify">
                 <div class="tab-content" id="v-pills-tabContent">
                     <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
                         aria-labelledby="v-pills-home-tab">
